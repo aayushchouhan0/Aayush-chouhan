@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    background-color: rgba(0, 0, 0, 0.842);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 330px;
+    background-color: rgb(131, 129, 129);
+    color : white;
+    height: 370px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate( -50%);
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+
+.inputSection{
+   padding: 30px 20px 20px 20px;
+   
+}
+.inputSection input[type="text"]{
+    width: 100%;
+    padding: 9px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(222, 222, 222);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
+}
+.radio{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.inputSection .radio input[type="radio"]{
+    width: 75%;
+}
+
+.button-Section{
+    padding: 10px 20px;
+}
+.btn{
+    width: 100%;
+    padding: 10px 5px;
+    font-weight: 600;
+    background-color: #0f172a;
+    color: white;
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn:hover{
+    background-color: white;
+    text-align: center;
+    color: black;
+   
+    outline-color: #0f172a;
+    
+}
+.result{
+    padding: 3px 25px ;
+}
+p{
+    padding: 0 25px;
+}

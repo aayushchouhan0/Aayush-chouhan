@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BMI CALCULATOR PROJECT -- USING JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="bmi.js" defer></script>
+</head>
+<body>
+    <div class="container">
+       
+            <div class="inputSection">
+                <input type="text" name="" id="name" placeholder="Name..." required maxlength="25" minlength="3" class="name">
+                <input type="text" name="" id="Height" placeholder="Height(cm)"  required class="height">
+                <input type="text" name="" id="Weight" placeholder="Weight(kg)" required class="weight">
+                <div class="radio">
+                    <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="male">MALE</label>
+                 <input type="radio" id="Female" name="gender" value="FEMALE">
+                <label for="Female">FEMALE</label>
+                </div>
+            </div>
+            <div class="button-Section">
+                <button class="btn">Check BMI</button>
+            </div>
+            <div class="result">
+                BMI Result is :
+            </div> <br>
+            <p class="if"></p>
+
+           
+    </div>
+</body>
+</html>
