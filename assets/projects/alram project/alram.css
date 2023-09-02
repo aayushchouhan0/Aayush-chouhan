@@ -1,0 +1,77 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body ,.wrappr ,.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    padding: 0 10px;
+    min-height: 100vh;
+    background-color: orange;
+}
+.wrappr{
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 30px 30px 38px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.wrappr img{
+    min-width: 103px;
+    height: 85px;
+}
+.wrappr h1{
+    margin: 9px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.wrappr .content{
+    width: 100%;
+    justify-content: space-between;
+}
+.content.disable{
+    cursor: no-drop;
+}
+.content .column{
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    width: calc(100% / 3 - 5px);
+    
+}
+
+.content.disable .column{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.column select{
+   
+    border: none;
+    outline: none;
+    font-size: 0.6rem;
+    height: 20px;
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+   margin-top: 20px;
+   padding: 3px 50px; 
+   border-radius: 6px;
+   outline: none;
+   border: none;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer; 
+}
+.btn:hover{
+    background-color: rgb(192, 141, 239);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
